@@ -1,5 +1,5 @@
 import {clicked, windowUrl, domain, domain_params} from "./UBer_win.js"
-const proxy = "http://uberhu.herokuapp.com/search/" // corrosion -- i also manipulate windowUrl with XOR encoding, so you'll have to disable those.
+const proxy = "https://fucktanner.herokuapp.com" // corrosion -- i also manipulate windowUrl with XOR encoding, so you'll have to disable those.
 !function(url) {
     var arr = {};
     function _init(three) {

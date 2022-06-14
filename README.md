@@ -6,6 +6,9 @@ Contact - *[j4jeffrey2424@outlook.com](mailto:j4jeffrey2424@outlook.com)* | *M4M
 
 **Join [TitaniumNetwork](https://discord.gg/unblock)!**
 
+**IMPORTANT**
+For first time set up remove ALL text already there and replace it with https://9e2d20ff-aa91-4ab5-b621-79905727ede6.id.repl.co/. If its blocked then hit the back arrow untill its unblocked (bug) then tyoe in google.com into the search bar and hit enter. Now it will work, you can refresh the page and hit enter without moving the text now and it will work.
+
 A favelet which can be used to unblock websites that are blocked with GoGuardian.
 Drag this to your Bookmarks bar, click on it and it will prompt you to enter a URL:
 `javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://testingherokuapp.github.io/GoBadian/GoBadian.min.js%27%7D)()`

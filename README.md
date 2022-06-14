@@ -21,13 +21,13 @@ Mason now. The original creator is luphoria but his code is outdated so I improv
 
 ### How do I install it?
 GoGaurdian is a favelet, or a bookmarklet. To use it, all you have to do is:
- - host UBer.js on your own webpage (e.g. a github pages website)
+ - host GoBadian.js on your own webpage (e.g. a github pages website)
  - drag this "favelet" to your Bookmarks bar: `javascript:s=document.body.appendChild(document.createElement ('script'));s.id='fs';s.language='javascript';void (s.src='//path/to/GoBadian.js');`
  - *Many websites using the default setting do not work. This can be resolved by visiting that website FIRST, stopping the page from fully loading, and then loading GoBadian. If the page STILL doesn't work, contact me and ill help you.
  
 ### How do I use it?
 Simply click on the favelet and it will load a menu. It should be fairly self-explanatory.
- - The proxy used is called "Corrosion" by sexyduceduce. Slight modifications have been made so that it can be run within UBer. It is planned to have more proxies in the future.
+ - The proxy used is called "Corrosion" by sexyduceduce. Slight modifications have been made so that it can be run within GoBadian. It is planned to have more proxies in the future.
 
 ### So, how TF does it work??
 GoGuardian blocks pages by checking your URL, and if the URL is blocked, redirecting your page. This works fine, however there are two major flaws with this system:

@@ -1,19 +1,19 @@
 /* 
-  UBer v4.11 by luphoria.
+  Mason's Bypasser v1.11 by Mason(Duh).
 */
 /* javascript: */(function() {
   var url = prompt("\
-Welcome to UBer v4.11\n\
+Welcome to GoBadian v1.11\n\
 enter url, the one already there is Google. make sure to start with http://, https://, or //.\n\
-OR enter 'p' to go to a proxy site.\n\n\n\
--luphoria",
+OR enter 'p' to go to a proxy site (dosnt work, just hit enter).\n\n\n\
+-Mason",
     placeholder = "//www.google.com/?igu=1") /* google with flag used by agoogleaday -- allows google.com for cross-origin iframe */
   if (url == "p") {
     /* if user inputs "p" instead of a url */
     var url2 = prompt("\
-Welcome to UBer v4.11\n\
+Welcome to GoBadian v4.11\n\
 enter url.\
--luphoria",
+-Mason",
       placeholder = "https://google.com/") /* flag not required when using proxy */
     if (url2 != "" && null != url2) /* cancel check */ {
       if (url2.includes("//", 0) || url2.includes("http://", 0) || url2.includes("https://", 0)) {

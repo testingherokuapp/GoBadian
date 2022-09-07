@@ -2,7 +2,7 @@
 
 **Main Link - `javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://testingherokuapp.github.io/GoBadian/GoBadian.min.js'})()`**
 
-Contact - *[j4jeffrey2424@outlook.com](mailto:j4jeffrey2424@outlook.com)* | *M4MASON#0697*
+Contact - *[j4jeffrey2424@outlook.com](mailto:j4jeffrey2424@outlook.com)* | *M4MASON#0693*
 
 **Join [TitaniumNetwork](https://discord.gg/unblock)!**
 

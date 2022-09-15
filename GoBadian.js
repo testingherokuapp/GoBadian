@@ -1,5 +1,6 @@
-/* 
-  Mason's Bypasser v1.11 by Mason(Duh).
+
+/*
+  Mason's Bypasser v1.12 by Mason(Duh).
 */
 /* javascript: */(function() {
   var url = prompt("\
@@ -17,7 +18,7 @@ enter url.\
       placeholder = "https://google.com/") /* flag not required when using proxy */
     if (url2 != "" && null != url2) /* cancel check */ {
       if (url2.includes("//", 0) || url2.includes("http://", 0) || url2.includes("https://", 0)) {
-        url = "https://9e2d20ff-aa91-4ab5-b621-79905727ede6.id.repl.co/" + encodeURIComponent(url2.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join('')) // XOR encoding -- taken from codec.js in the Corrosion source, but most likely a standard(?)
+        url = "547cf84e-bf26-4620-933e-48de24c75c8a.id.repl.co/" + encodeURIComponent(url2.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join('')) // XOR encoding -- taken from codec.js in the Corrosion source, but most likely a standard(?)
       } else {
         alert("invalid url, quitting.\nmake sure to start with 'http://', 'https://', or '//'.")
         url = null
@@ -25,7 +26,7 @@ enter url.\
       }
     }
   }
-  
+ 
   if ("" != url && null != url) {
     if (url.includes("//", 0) || url.includes("http://", 0) || url.includes("https://", 0)) {
       document.body.innerHTML = '<body style="margin:0px;padding:0px;overflow:hidden"><iframe src="' + url + '" id="uberFrame" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe></body>'

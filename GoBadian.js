@@ -18,7 +18,7 @@ enter url.\
       placeholder = "https://google.com/") /* flag not required when using proxy */
     if (url2 != "" && null != url2) /* cancel check */ {
       if (url2.includes("//", 0) || url2.includes("http://", 0) || url2.includes("https://", 0)) {
-        url = "547cf84e-bf26-4620-933e-48de24c75c8a.id.repl.co/" + encodeURIComponent(url2.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join('')) // XOR encoding -- taken from codec.js in the Corrosion source, but most likely a standard(?)
+        url = "34045e5b-0706-43a0-8a92-b9df97c79da4.id.repl.co/" + encodeURIComponent(url2.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join('')) // XOR encoding -- taken from codec.js in the Corrosion source, but most likely a standard(?)
       } else {
         alert("invalid url, quitting.\nmake sure to start with 'http://', 'https://', or '//'.")
         url = null

@@ -11,7 +11,7 @@ Drag this to your Bookmarks bar, click on it and it will prompt you to enter a U
 `javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://testingherokuapp.github.io/GoBadian/GoBadian.min.js%27%7D)()`
 
 ## IMPORTANT
-For first time set up remove ALL text already there and replace it with https://9e2d20ff-aa91-4ab5-b621-79905727ede6.id.repl.co/. If its blocked then hit the back arrow untill its unblocked (bug) then type in google.com into the search bar and hit enter. Now it will work, you can refresh the page and hit enter without removing the text now and it will work properly. Video of tutorial --->
+For first time set up remove ALL text already there and replace it with https://16460a8f-5924-4886-a8c5-197c53b02c78.id.repl.co/. If its blocked then hit the back arrow untill its unblocked (bug) then type in google.com into the search bar and hit enter. Now it will work, you can refresh the page and hit enter without removing the text now and it will work properly. Video of tutorial --->
    [tutorial.gif](https://user-images.githubusercontent.com/101121928/173620683-27df5769-623a-41c2-acba-06c0f51092c7.gif)
 ## NOTE!
 Lyft requires loading quickly. I do NOT recommend you host this on a server, as it is most likely to fail for taking too long to request for the JS. Instead, run the favelet completely locally: `javascript:window.addEventListener('beforeunload', function (e) {e.preventDefault();return "h";});`

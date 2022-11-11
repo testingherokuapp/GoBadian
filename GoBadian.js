@@ -17,7 +17,7 @@ enter url.\
       placeholder = "https://google.com/") /* flag not required when using proxy */
     if (url2 != "" && null != url2) /* cancel check */ {
       if (url2.includes("//", 0) || url2.includes("http://", 0) || url2.includes("https://", 0)) {
-        url = "8ca5d1b3-0f8f-4971-b985-f2d166f0d581.id.repl.co/" + encodeURIComponent(url2.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join('')) // XOR encoding -- taken from codec.js in the Corrosion source, but most likely a standard(?)
+        url = "sideways-numerous-twister.glitch.me/service/go/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F/" + encodeURIComponent(url2.toString().split('').map((char, ind) => ind % 2 ? String.fromCharCode(char.charCodeAt() ^ 2) : char).join('')) // XOR encoding -- taken from codec.js in the Corrosion source, but most likely a standard(?)
       } else {
         alert("invalid url, quitting.\nmake sure to start with 'http://', 'https://', or '//'.")
         url = null
